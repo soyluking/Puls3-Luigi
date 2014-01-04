@@ -34,6 +34,7 @@ header {
 	color: #FFF;
 	margin: 0;
 	padding: 0.5em;
+	position: relative;
 }
 header #avatar {
 	margin: 1em 0 0; 
@@ -90,7 +91,7 @@ nav #publicar_nav {
 	background: #DD4F24;
 	float: right;
 	margin-right: 0;
-	padding-right: 1em; 
+	padding-right: 1.5em; 
 	position: relative;
 }
 nav #publicar_nav a {
