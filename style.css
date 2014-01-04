@@ -143,7 +143,16 @@ header #logo img {
 	border-radius: 4px;
 	color: #FFF;
 	margin-left: 2em;
-	padding: 4px;
+	padding: 3px 4px;
+	position: relative;
+}
+#contenido .item .datos_item .comentarios_item:after {
+	border-left: 5px solid transparent;
+	border-top: 5px solid #878787;
+	content: "";
+	left: 18px;
+	position: absolute;
+	top: 100%;
 }
 #contenido .item .datos_item .guardar_item {
 	margin: 0 1em;
