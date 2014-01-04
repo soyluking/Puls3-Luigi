@@ -108,6 +108,9 @@ header #logo img {
 	float: left;
 	width: 80px;
 }
+#bienvenida {
+	display: none;
+}
 #contenido {
 	margin: 1em;
 }
@@ -122,16 +125,31 @@ header #logo img {
 	color: #7A7A7A;
 	font-size: 0.8em;
 }
+#contenido .item .datos_item {
+	text-align: right;
+}
+#contenido .item .datos_item .comentarios_item {
+	background: #878787;
+	border-radius: 4px;
+	color: #FFF;
+	margin-left: 2em;
+	padding: 4px;
+}
+#contenido .item .datos_item .guardar_item {
+	margin: 0 1em;
+}
 #contenido .item .datos_item .guardar_item:after {
 	color: #FD5;
 	content: "\e604";
 	font-family: "icomoon";
-	font-size: 1em;
+	font-size: 1.3em;
+	vertical-align: bottom;
 }
 #contenido .item .datos_item .tag_item {
 	background: #22BCE0;
 	border-radius: 0.5em;
 	color: #FFF;
+	float: left;
 	padding: 0.2em 0.5em;
 }
 #contenido .item .imagen_item {
