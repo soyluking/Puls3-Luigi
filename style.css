@@ -36,8 +36,10 @@ header {
 	padding: 0.5em;
 }
 header #avatar {
-	float: right;
 	margin: 1em 0 0; 
+	position: absolute;
+	right: 0.5em;
+	top: 7px; 
 }
 header #avatar figcaption {
 	background: #22BCE0;
@@ -104,15 +106,19 @@ nav #publicar_nav:after {
 	right: 0;
 	top: 0;
 }
-header figure, header h1 {
-	display: inline-block;
-	vertical-align: top;
+header:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+header figure {
+	float: left;
 }
 header h1 {
+	display: block;
 	font-size: 20px;
 	font-weight: normal;
-	margin: 1em 1em 0 1em;
-	width: 60%;
+	margin: 0.7em 85px 0 100px;
 }
 header #logo img {
 	float: left;
