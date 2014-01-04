@@ -80,6 +80,9 @@ header #logo img {
 #contenido .item {
 	background: #FFF;
 	border-bottom: 3px solid #22BCE0;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
 }
 #contenido .item p {
 	color: #7A7A7A;
@@ -105,4 +108,14 @@ header #logo img {
 #contenido .item .titulo_item a {
 	color: #444;
 	font-style: italic;
+}
+#contenido .item .votacion {
+	background: #FFF;
+	border-radius: 0 0 0.5em 0.5em;
+	margin: 3px 0 0;
+	padding: 0.5em 0;
+	position: absolute;
+	text-align: center;
+	top: 100%;
+	width: 96px;
 }
